@@ -1,0 +1,25 @@
+{
+  "name": "@felixlgr/ts-types",
+  "displayName": "TypeScript types",
+  "description": "Generate TypeScript types from HTTP response JSON",
+  "version": "1.0.1",
+  "homepage": "https://github.com/FelixLgr/yaak-plugin-ts-types",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixLgr/yaak-plugin-ts-types.git"
+  },
+  "private": true,
+  "scripts": {
+    "build": "yaakcli build",
+    "dev": "yaakcli dev"
+  },
+  "dependencies": {
+    "@yaakapp/api": "^0.7.0",
+    "json-to-ts": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@yaakapp/cli": "^0.3.4",
+    "typescript": "^5.9.3"
+  }
+}
